@@ -1,4 +1,4 @@
-package main.java.ua.com.foxminded.anagrams;
+package ua.com.foxminded.anagrams;
 
 public class Application {
 

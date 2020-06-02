@@ -1,10 +1,8 @@
-package test.java.ua.com.foxminded.anagrams;
+package ua.com.foxminded.anagrams;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-
-import main.java.ua.com.foxminded.anagrams.Anagrams;
 
 import org.junit.jupiter.api.Assertions;
 
