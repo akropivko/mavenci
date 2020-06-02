@@ -9,3 +9,7 @@ notifications:
       - akropivko@gmail.com
     on_success: always # default: change
     on_failure: always # default: always
+    
+after_success:
+  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
