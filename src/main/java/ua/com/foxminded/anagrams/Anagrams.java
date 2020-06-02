@@ -49,6 +49,4 @@ public class Anagrams {
         }
         return String.valueOf(chars);
     }
-    some error
-
 }
