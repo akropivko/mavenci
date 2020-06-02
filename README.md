@@ -4,7 +4,7 @@
 
 Awesome factory line manager!
 
-[build-badge]: https://img.shields.io/travis/akropivko/mavenci/master.png?style=flat-square
+[build-badge]: https://travis-ci.com/akropivko/mavenci.svg?branch=master
 [build]: https://travis-ci.com/akropivko/mavenci
 
 [coveralls-badge]: https://img.shields.io/coveralls/akropivko/mavenci/master.png?style=flat-square
