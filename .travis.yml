@@ -10,6 +10,8 @@ notifications:
     on_success: always # default: change
     on_failure: always # default: always
     
+after_success: "sbt coveralls"
+
 #after_success:
 #  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
 #  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
