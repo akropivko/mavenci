@@ -7,4 +7,4 @@
 [build]: https://travis-ci.org/akropivko/mavenci
 
 [coveralls-badge]: https://img.shields.io/coveralls/akropivko/mavenci/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github//mavenci
+[coveralls]: https://coveralls.io/github/mavenci
