@@ -37,9 +37,6 @@
                 <groupId>org.eluder.coveralls</groupId>
                 <artifactId>coveralls-maven-plugin</artifactId>
                 <version>4.3.0</version>
-                <configuration>
-                    <repoToken>XC9LVwfKaVLkfkB4RcMCB2cXzrXxp0GAN</repoToken>
-                </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-jar-plugin</artifactId>
