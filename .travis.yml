@@ -1,21 +1,20 @@
 # https://docs.travis-ci.com/user/languages/java/
 language: java
 
-# We can specify a list of JDKs to be used for testing
-# A list of available JDKs in Trusty can be seed in:
-# https://docs.travis-ci.com/user/reference/xenial/#jvm-clojure-groovy-java-scala-support
-jdk:
- - openjdk8
- - openjdk11
+#use simple (fast) mode to build to project 
+sudo: false 
+
+    
+after_success:
+  #- cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
+  #- cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+  - bash <(curl -s https://codecov.io/bash)
+
  
 # Notifications https://docs.travis-ci.com/user/notifications/
 notifications:
   email:
     recipients:
       - akropivko@gmail.com
-    on_success: always # default: change
+    on_success: change # default: change
     on_failure: always # default: always
-    
-after_success:
-  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
-  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
